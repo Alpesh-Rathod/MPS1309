@@ -1,0 +1,82 @@
+img {
+    max-width: 100%;
+}
+.top-bar {
+    background: #156e9d;
+    width: 100%;
+}
+
+.top-bar-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.social-list {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.social-list li {
+    float: left;
+    padding-right: 20px;
+}
+.social-list li a {
+    color: #fff;
+}
+.tag_line p {
+    margin: 0;
+    color: #fff;
+}
+.contact-link {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 33px 27px 33px 30px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    border-left: 1px solid #ececec;
+}
+.contact-link .lawyr-icon {
+    float: left;
+    padding-top: 1px;
+    font-size: 35px;
+    color: #156e9d;
+    padding-right: 6px;
+}
+.contact-link-info {
+    overflow: hidden;
+    padding-left: 10px;
+}
+.contact-link span {
+    display: block;
+    color: #444;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header-link {
+    max-width: 610px;
+    margin: 0 0 0 auto;
+}
+.header-link .contact-link:last-child {
+    padding-right: 0;
+}
+.header-link .contact-link {
+    padding-left: 38px;
+    padding-right: 33px;
+}
+.center-header {
+    background: #fff;
+    position: relative;
+}
+.navbar-social {
+    float: right;
+    line-height: 52px;
+}
+.navbar-social .social-list li a {
+    color: #156e9d;
+}
+.contact-link-info a {
+    font-size: 22px;
+    color: #000;
+}
